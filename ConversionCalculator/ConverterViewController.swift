@@ -28,7 +28,7 @@ class ConverterViewController: UIViewController {
     }
     
     @IBAction func converterTapped(_ sender: Any) {
-        let alert = UIAlertController(title: "Choose Converter", message: "", preferredStyle: UIAlertControllerStyle.actionSheet)
+        let alert = UIAlertController(title: "Choose Converter", message: nil, preferredStyle: UIAlertControllerStyle.actionSheet)
         
         alert.addAction(UIAlertAction(title: Converter.init().labels[0], style: UIAlertActionStyle.default, handler: { (alertAction) -> Void in
             
